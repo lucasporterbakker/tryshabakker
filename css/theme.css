@@ -385,10 +385,12 @@ img {
 .gallery {
 	/* background-color: #FFFFFF; */
 }
+
 .gallery ul {
 	padding:0;
 	margin:0;
 }
+
 .gallery img {
 	max-width: 100%;
 	height: auto;
@@ -396,6 +398,17 @@ img {
 	margin: 0;
 	/* background: rgba(0,0,0,0.4); */
 	/* z-index: 4; */
+}
+
+@media(max-width:768px) {
+	.gallery img {
+		max-width: 100%;
+		height: auto;
+		padding: 5px;
+		margin: 0;
+		/* background: rgba(0,0,0,0.4); */
+		/* z-index: 4; */
+	}
 }
 
 .gallery ul li {
