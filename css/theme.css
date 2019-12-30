@@ -646,6 +646,9 @@ section {
 	border: white 1px solid;
 }
 
+.form-margin {
+	margin: 10px;
+}
 
 .grids {
   position: fixed;
