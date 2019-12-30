@@ -400,16 +400,51 @@ img {
 	/* z-index: 4; */
 }
 
-@media(max-width:500px) {
+/* iPhone 10 Media Queries */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+	.gallery img {
+		padding: 5px;
+	}
+}
+
+/* iPhone 6, 7, & 8 Media Queries */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+	.gallery img {
+		padding: 5px;
+	}
+}
+
+/* iPhone 6, 7, & 8 Plus Media Queries */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+	.gallery img {
+		padding: 5px;
+	}
+}
+
+/* iPhone 5 & 5S Media Queries */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	.gallery img {
+		padding: 5px;
+	}
+}
+
+/* @media(max-width:500px) {
 	.gallery img {
 		max-width: 100%;
 		height: auto;
 		padding: 5px;
 		margin: 0;
-		/* background: rgba(0,0,0,0.4); */
-		/* z-index: 4; */
 	}
-}
+} */
 
 .gallery ul li {
 	margin:0;
