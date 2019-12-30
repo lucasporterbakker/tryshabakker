@@ -390,10 +390,12 @@ img {
 	margin:0;
 }
 .gallery img {
-	max-width:100%;
-	height:auto;
-	padding:15px;
-	margin:0;
+	max-width: 100%;
+	height: auto;
+	padding: 15px;
+	margin: 0;
+	/* background: rgba(0,0,0,0.4); */
+	/* z-index: 4; */
 }
 
 .gallery ul li {
