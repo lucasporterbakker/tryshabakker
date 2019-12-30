@@ -400,7 +400,7 @@ img {
 	/* z-index: 4; */
 }
 
-@media(max-width:768px) {
+@media(max-width:500px) {
 	.gallery img {
 		max-width: 100%;
 		height: auto;
