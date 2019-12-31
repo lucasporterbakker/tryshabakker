@@ -129,13 +129,12 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('https://images.unsplash.com/photo-1573161014948-94381974daf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.23),rgba(0,0,0,0.44)),url('https://images.unsplash.com/photo-1573161014948-94381974daf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
 	-o-background-size:cover;
 }
-
 
 
 .intro .intro-body {
@@ -657,6 +656,53 @@ section {
 
 .form-margin {
 	margin: 10px;
+}
+
+.cv-margin {
+	margin: 10px;
+	padding: 5px 150px 5px 150px;
+}
+
+
+/* iPhone 10 Media Queries */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+	.cv-margin {
+		margin: 10px;
+		padding: 5px 15px 5px 15px;
+	}
+}
+
+/* iPhone 6, 7, & 8 Media Queries */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+	.cv-margin {
+		margin: 10px;
+		padding: 5px 15px 5px 15px;
+	}
+}
+
+/* iPhone 6, 7, & 8 Plus Media Queries */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+	.cv-margin {
+		margin: 10px;
+		padding: 5px 15px 5px 15px;
+	}
+}
+
+/* iPhone 5 & 5S Media Queries */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	.cv-margin {
+		margin: 10px;
+		padding: 5px 15px 5px 15px;
+	}
 }
 
 .grids {
