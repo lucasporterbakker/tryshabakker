@@ -27,6 +27,63 @@ h2 {
 	letter-spacing:1px;
 }
 
+/* iPhone 10 Media Queries */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+	h2 {
+		margin:0 0 30px;
+		text-transform:uppercase;
+		font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight:500;
+		letter-spacing:2px;
+		padding: 0px 0px 0px 0px;
+	}
+}
+
+/* iPhone 6, 7, & 8 Media Queries */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+	h2 {
+		margin:0 0 30px;
+		text-transform:uppercase;
+		font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight:500;
+		letter-spacing:2px;
+		padding: 0px 0px 0px 0px;
+	}
+}
+
+/* iPhone 6, 7, & 8 Plus Media Queries */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+	h2 {
+		margin:0 0 30px;
+		text-transform:uppercase;
+		font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight:500;
+		letter-spacing:2px;
+		padding: 0px 0px 0px 0px;
+	}
+}
+
+/* iPhone 5 & 5S Media Queries */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	h2 {
+		margin:0 0 30px;
+		text-transform:uppercase;
+		font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight:500;
+		letter-spacing:2px;
+		padding: 0px 0px 0px 0px;
+	}
+}
+
 p {
 	margin:0 25px 25px;
 	font-size:18px;
@@ -645,13 +702,66 @@ section {
 	border: white 1px solid;
 }
 
+.avatar-resume-large {
+  width: 100px;
+  border-radius: 50%;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	border: white 1px solid;
+	/* padding: 5px 0px 5px 15px; */
+}
+
 .avatar-logo{
   width: 100px;
   border-radius: 50%;
 	/* padding: 25px; */
 	/* box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 	border: white 1px solid; */
-	padding-bottom: 50px;
+	padding: 0px 0px 80px 0px;
+}
+
+/* iPhone 10 Media Queries */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+	.avatar-logo{
+	  width: 100px;
+	  border-radius: 50%;
+		padding: 30px 0px 60px 0px;
+	}
+}
+
+/* iPhone 6, 7, & 8 Media Queries */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+	.avatar-logo{
+	  width: 100px;
+	  border-radius: 50%;
+		padding: 30px 0px 60px 0px;
+	}
+}
+
+/* iPhone 6, 7, & 8 Plus Media Queries */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+	.avatar-logo{
+	  width: 100px;
+	  border-radius: 50%;
+		padding: 30px 0px 60px 0px;
+	}
+}
+
+/* iPhone 5 & 5S Media Queries */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	.avatar-logo{
+	  width: 100px;
+	  border-radius: 50%;
+		padding: 30px 0px 60px 0px;
+	}
 }
 
 .form-margin {
