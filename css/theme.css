@@ -201,7 +201,7 @@ and (-webkit-device-pixel-ratio : 3) {
 	.intro {
 		display:table;
 		width:100%;
-		height:60vh;
+		height:75vh;
 		padding:100px 0 100px 0;
 		text-align:center;
 		color:#fff;
@@ -220,7 +220,7 @@ and (max-device-width : 667px) {
 	.intro {
 		display:table;
 		width:100%;
-		height:60vh;
+		height:75vh;
 		padding:100px 0 100px 0;
 		text-align:center;
 		color:#fff;
@@ -239,7 +239,7 @@ and (max-device-width : 736px) {
 	.intro {
 		display:table;
 		width:100%;
-		height:60vh;
+		height:75vh;
 		padding:100px 0 100px 0;
 		text-align:center;
 		color:#fff;
@@ -258,7 +258,7 @@ and (max-device-width : 568px) {
 	.intro {
 		display:table;
 		width:100%;
-		height:60vh;
+		height:75vh;
 		padding:100px 0 100px 0;
 		text-align:center;
 		color:#fff;
